@@ -18,6 +18,6 @@ Manage multiple vault passwords for different environments.
 
 Run the playbook with a vault password prompt:
 
-ansible-playbook -i inventory.ini playbook.yml --ask-vault-pass
+`ansible-playbook -i inventory.ini playbook.yml --ask-vault-pass`
 
 For detailed setup and operations, refer to the provided documentation.
